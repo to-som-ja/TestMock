@@ -9,11 +9,6 @@ trigger:
 pool:
   vmImage: 'ubuntu-20.04'
 
-variables:
-  buildConfiguration: 'Release'
-  wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-  dotnetSdkVersion: '6.x'
-
 steps:
 - task: DotNetCoreCLI@2
   inputs:
@@ -21,9 +16,9 @@ steps:
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
-- script: dotnet test --logger trx
+- script: dotnet test --logger "xml;logfilename=test.xml"
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
-    testRunner: VSTest
-    testResultsFiles: '*.xml'
+    testResultsFormat: JUnit
+    testResultsFiles: 'test.xml'
