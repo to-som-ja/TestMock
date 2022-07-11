@@ -6,14 +6,13 @@ public class UnitTest
     [TestMethod]
     public void Test1()
     {
-        var user = Environment.GetEnvironmentVariable("user");
-        //Console.WriteLine("AHOOOOOOJ");
-        Assert.IsTrue(user == "user");
+        Assert.IsTrue(true);
     }
     [TestMethod]
     public void Test2()
     {
-        Assert.IsTrue(true);
+        var user = Environment.GetEnvironmentVariable("user");
+        Assert.AreSame("user",user);
     }
     [TestMethod]
     public void Test3()
