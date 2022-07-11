@@ -15,11 +15,13 @@ variables:
   dotnetSdkVersion: '6.x'
 
 steps:
-- script: dotnet test
+- script: dotnet test --logger trx
 
 - task: PublishTestResults@2
   displayName: 'publish tests'
+  condition: succeededOrFailed()
   inputs:
     testResultsFormat: 'JUnit'
+    failTaskOnFailedTests: false
     testResultsFiles: '**/TEST-*.xml' 
-    publishRunAttachments: false
+    publishRunAttachments: true
