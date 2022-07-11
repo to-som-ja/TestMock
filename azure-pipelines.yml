@@ -15,15 +15,11 @@ variables:
   dotnetSdkVersion: '6.x'
 
 steps:
-- task: UseDotNet@2
-  displayName: 'Use .NET SDK $(dotnetSdkVersion)'
-  inputs:
-    version: '$(dotnetSdkVersion)'
+- script: dotnet test
 
-- task: DotNetCoreCLI@2
-  displayName: 'Run unit tests - $(buildConfiguration)'
+- task: PublishTestResults@2
+  displayName: 'publish tests'
   inputs:
-    command: 'test'
-    arguments: '--no-build --configuration $(buildConfiguration)'
-    publishTestResults: true
-    projects: '**/*.Tests.csproj'
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/TEST-*.xml' 
+    publishRunAttachments: true
