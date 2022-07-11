@@ -10,15 +10,9 @@ pool:
   vmImage: 'ubuntu-20.04'
 
 steps:
-- task: DotNetCoreCLI@2
-  inputs:
-    command: test
-    projects: '**/*Tests/*.csproj'
-    arguments: '--configuration $(buildConfiguration)'
-
-- script: dotnet test --logger "xml;logfilename=test.xml"
+- script: dotnet test --logger junit
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
     testResultsFormat: JUnit
-    testResultsFiles: 'test.xml'
+    testResultsFiles: '**/TEST*.xml'
