@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "reQUHMT0V5og2rH7rfNQ63l/OLPpIMIMWsewL+xeBqrORG8mIcMfNtGmCAVNLQ7v/HSOrYvZ/su+ErZDmdml8Q==",
+  "dgSpecHash": "Hqy9oBvB6ohlgE7kgtX3/6cSkzukKzhG7454UUSl2d6ONDGhT37TOUT+xXEceSDqX030Ni0ae/5bOoPtBRHUOA==",
   "success": true,
   "projectFilePath": "C:\\TestMock\\TestMock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\to_som_ja\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\to_som_ja\\.nuget\\packages\\junitxml.testlogger\\3.0.110\\junitxml.testlogger.3.0.110.nupkg.sha512",
     "C:\\Users\\to_som_ja\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\to_som_ja\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\to_som_ja\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",

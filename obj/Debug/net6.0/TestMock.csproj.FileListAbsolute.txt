@@ -96,3 +96,6 @@ C:\TestMock\obj\Debug\net6.0\refint\TestMock.dll
 C:\TestMock\obj\Debug\net6.0\TestMock.pdb
 C:\TestMock\obj\Debug\net6.0\TestMock.genruntimeconfig.cache
 C:\TestMock\obj\Debug\net6.0\ref\TestMock.dll
+C:\TestMock\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Extension.JUnit.Xml.TestLogger.dll
+C:\TestMock\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Extension.JUnit.Xml.TestAdapter.dll
+C:\TestMock\bin\Debug\net6.0\Spekt.TestLogger.dll

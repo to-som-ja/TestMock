@@ -2,11 +2,13 @@ namespace TestMock;
 
 [TestClass]
 public class UnitTest
-{
+{   
     [TestMethod]
     public void Test1()
     {
-        Assert.IsTrue(false);
+        var user = Environment.GetEnvironmentVariable("user");
+        //Console.WriteLine("AHOOOOOOJ");
+        Assert.IsTrue(user == "user");
     }
     [TestMethod]
     public void Test2()

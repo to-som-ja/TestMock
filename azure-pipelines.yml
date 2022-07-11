@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: 'ubuntu-20.04'
 
+run_tests:
+  # Set environment variables as you need
+  variables:
+    user: "user"
+
 steps:
 - script: dotnet test --logger junit
 - task: PublishTestResults@2

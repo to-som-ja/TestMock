@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "JunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.0.110, )"
+            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[2.2.8, )"
