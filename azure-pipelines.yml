@@ -14,7 +14,7 @@ variables:
 
 steps:
 
-- script: dotnet test --logger junit
+- script: dotnet test --logger "junit;verbosity=detailed"
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
