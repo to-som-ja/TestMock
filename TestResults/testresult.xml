@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="253d4ab6-71b6-4364-a654-6612de8ab31d" name="to_som_ja@DESKTOP-15QUBI0 2022-07-12 13:01:13" runUser="DESKTOP-15QUBI0\to_som_ja" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-07-12T13:01:13.3473380+02:00" queuing="2022-07-12T13:01:13.3473382+02:00" start="2022-07-12T13:01:12.7301681+02:00" finish="2022-07-12T13:01:13.3610103+02:00" />
+  <TestSettings name="default" id="30c97ee7-8914-4773-b51f-831261823570">
+    <Deployment runDeploymentRoot="to_som_ja_DESKTOP-15QUBI0_2022-07-12_13_01_13" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="48b263ea-a0d8-40ca-afa2-25833579a687" testId="95e02c57-a98c-43a3-ba9e-7183e7687d1f" testName="Test2" computerName="DESKTOP-15QUBI0" duration="00:00:00.0004477" startTime="2022-07-12T13:01:13.2290231+02:00" endTime="2022-07-12T13:01:13.2295673+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48b263ea-a0d8-40ca-afa2-25833579a687">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestMock.UnitTest.Test2() in C:\TestMock\UnitTest.cs:line 22&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86b3bc21-ac04-411f-b425-b652a8119cde" testId="2018fbec-a91e-45b7-aaf8-ea95e086a97a" testName="Test4" computerName="DESKTOP-15QUBI0" duration="00:00:00.0003084" startTime="2022-07-12T13:01:13.2300009+02:00" endTime="2022-07-12T13:01:13.2304589+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86b3bc21-ac04-411f-b425-b652a8119cde">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestMock.UnitTest.Test4() in C:\TestMock\UnitTest.cs:line 39&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b06ea2f-8df9-4de8-b778-30e4f6d2491b" testId="2a98981b-c6cb-4029-8e66-1cf98524086a" testName="Test3" computerName="DESKTOP-15QUBI0" duration="00:00:00.0003193" startTime="2022-07-12T13:01:13.2296066+02:00" endTime="2022-07-12T13:01:13.2299732+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b06ea2f-8df9-4de8-b778-30e4f6d2491b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestMock.UnitTest.Test3() in C:\TestMock\UnitTest.cs:line 30&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70cbeb28-667c-4ce0-be1f-1b1829688016" testId="09599ab5-2bb3-41f3-aa0d-08014107b7a6" testName="Test1" computerName="DESKTOP-15QUBI0" duration="00:00:00.0200414" startTime="2022-07-12T13:01:13.1915341+02:00" endTime="2022-07-12T13:01:13.2233577+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70cbeb28-667c-4ce0-be1f-1b1829688016">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestMock.UnitTest.Test1() in C:\TestMock\UnitTest.cs:line 14&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test2" storage="c:\testmock\bin\debug\net6.0\testmock.dll" id="95e02c57-a98c-43a3-ba9e-7183e7687d1f">
+      <Execution id="48b263ea-a0d8-40ca-afa2-25833579a687" />
+      <TestMethod codeBase="C:\TestMock\bin\Debug\net6.0\TestMock.dll" adapterTypeName="executor://mstestadapter/v2" className="TestMock.UnitTest" name="Test2" />
+    </UnitTest>
+    <UnitTest name="Test3" storage="c:\testmock\bin\debug\net6.0\testmock.dll" id="2a98981b-c6cb-4029-8e66-1cf98524086a">
+      <Execution id="9b06ea2f-8df9-4de8-b778-30e4f6d2491b" />
+      <TestMethod codeBase="C:\TestMock\bin\Debug\net6.0\TestMock.dll" adapterTypeName="executor://mstestadapter/v2" className="TestMock.UnitTest" name="Test3" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="c:\testmock\bin\debug\net6.0\testmock.dll" id="09599ab5-2bb3-41f3-aa0d-08014107b7a6">
+      <Execution id="70cbeb28-667c-4ce0-be1f-1b1829688016" />
+      <TestMethod codeBase="C:\TestMock\bin\Debug\net6.0\TestMock.dll" adapterTypeName="executor://mstestadapter/v2" className="TestMock.UnitTest" name="Test1" />
+    </UnitTest>
+    <UnitTest name="Test4" storage="c:\testmock\bin\debug\net6.0\testmock.dll" id="2018fbec-a91e-45b7-aaf8-ea95e086a97a">
+      <Execution id="86b3bc21-ac04-411f-b425-b652a8119cde" />
+      <TestMethod codeBase="C:\TestMock\bin\Debug\net6.0\TestMock.dll" adapterTypeName="executor://mstestadapter/v2" className="TestMock.UnitTest" name="Test4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="95e02c57-a98c-43a3-ba9e-7183e7687d1f" executionId="48b263ea-a0d8-40ca-afa2-25833579a687" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2018fbec-a91e-45b7-aaf8-ea95e086a97a" executionId="86b3bc21-ac04-411f-b425-b652a8119cde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a98981b-c6cb-4029-8e66-1cf98524086a" executionId="9b06ea2f-8df9-4de8-b778-30e4f6d2491b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09599ab5-2bb3-41f3-aa0d-08014107b7a6" executionId="70cbeb28-667c-4ce0-be1f-1b1829688016" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="0" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

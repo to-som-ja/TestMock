@@ -1,0 +1,19 @@
+<testsuites>
+  <testsuite name="TestMock.dll" tests="4" skipped="0" failures="4" errors="0" time="0.0208843" timestamp="2022-07-12T10:59:40" hostname="DESKTOP-15QUBI0" id="0" package="TestMock.dll">
+    <properties />
+    <testcase classname="TestMock.UnitTest" name="Test1" time="0.0198123">
+      <failure type="failure" message="Assert.IsTrue failed. ">at TestMock.UnitTest.Test1() in C:\TestMock\UnitTest.cs:line 14</failure>
+    </testcase>
+    <testcase classname="TestMock.UnitTest" name="Test2" time="0.0004259">
+      <failure type="failure" message="Assert.IsTrue failed. ">at TestMock.UnitTest.Test2() in C:\TestMock\UnitTest.cs:line 22</failure>
+    </testcase>
+    <testcase classname="TestMock.UnitTest" name="Test3" time="0.0003268">
+      <failure type="failure" message="Assert.IsTrue failed. ">at TestMock.UnitTest.Test3() in C:\TestMock\UnitTest.cs:line 30</failure>
+    </testcase>
+    <testcase classname="TestMock.UnitTest" name="Test4" time="0.0003193">
+      <failure type="failure" message="Assert.IsTrue failed. ">at TestMock.UnitTest.Test4() in C:\TestMock\UnitTest.cs:line 39</failure>
+    </testcase>
+    <system-out></system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>

@@ -11,7 +11,6 @@ public class UnitTest
         string? test = Environment.GetEnvironmentVariable("TEST1",EnvironmentVariableTarget.Process);
         int number;
         int.TryParse(test, out number);
-        Console.WriteLine(number);
         Assert.IsTrue(rnd.Next(100)<number);
     }
     [TestMethod]
@@ -20,7 +19,6 @@ public class UnitTest
         string? test = Environment.GetEnvironmentVariable("TEST2",EnvironmentVariableTarget.Process);
         int number;
         int.TryParse(test, out number);
-        Console.WriteLine(number);
         Assert.IsTrue(rnd.Next(100)<number);
     }
     [TestMethod]
@@ -29,7 +27,6 @@ public class UnitTest
         string? test = Environment.GetEnvironmentVariable("TEST3",EnvironmentVariableTarget.Process);
         int number;
         int.TryParse(test, out number);
-        Console.WriteLine(number);
         Assert.IsTrue(rnd.Next(100)<number);
     }
 
@@ -39,7 +36,6 @@ public class UnitTest
         string? test = Environment.GetEnvironmentVariable("TEST4",EnvironmentVariableTarget.Process);
         int number;
         int.TryParse(test, out number);
-        Console.WriteLine(number);
         Assert.IsTrue(rnd.Next(100)<number);
     }
 }
