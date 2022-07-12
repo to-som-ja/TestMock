@@ -13,13 +13,18 @@ public class UnitTest
     {
         string? user = Environment.GetEnvironmentVariable("USER",EnvironmentVariableTarget.Process);
         Console.WriteLine("user:");
-        Console.WriteLine(user);
-        if(user == "USER1")
-        {
+        Console.WriteLine(user.ToString());
+        int number = 0 ;
+        if(int.TryParse(user, out number) && number == 1)
+        {   
+            Console.WriteLine("Number:");
+            Console.WriteLine(number);
             Assert.IsTrue(true);
         }
         else
-        {
+        {   
+            Console.WriteLine("Number:");
+            Console.WriteLine(number);
             Assert.IsTrue(false);
         }
     }
