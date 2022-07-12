@@ -14,7 +14,7 @@ public class UnitTest
         string user = Environment.GetEnvironmentVariable("USER",EnvironmentVariableTarget.Process);
         Console.WriteLine("user:");
         Console.WriteLine(user.ToString());
-        Assert.AreSame("USER",user);
+        Assert.AreSame("USER",user.ToString());
     }
     [TestMethod]
     public void Test3()
