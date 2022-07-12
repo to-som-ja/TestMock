@@ -12,7 +12,7 @@ pool:
 variables:
   TEST1: "true"
   TEST2: "true"
-  TEST3: "true"
+  TEST3: "false"
 
 steps:
   - script: dotnet test --logger "junit;verbosity=detailed"
