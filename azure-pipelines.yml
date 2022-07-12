@@ -10,7 +10,9 @@ pool:
   vmImage: 'ubuntu-20.04'
 
 variables:
-    USER: "1"
+    TEST1: "true"
+    TEST2: "true"
+    TEST3: "true"
 
 steps:
 
