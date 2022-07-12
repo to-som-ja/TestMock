@@ -11,10 +11,17 @@ public class UnitTest
     [TestMethod]
     public void Test2()
     {
-        string user = Environment.GetEnvironmentVariable("USER",EnvironmentVariableTarget.Process);
+        string? user = Environment.GetEnvironmentVariable("USER",EnvironmentVariableTarget.Process);
         Console.WriteLine("user:");
-        Console.WriteLine(user.ToString());
-        Assert.AreSame("USER",user.ToString());
+        Console.WriteLine(user);
+        if(user == "USER1")
+        {
+            Assert.IsTrue(true);
+        }
+        else
+        {
+            Assert.IsTrue(false);
+        }
     }
     [TestMethod]
     public void Test3()
