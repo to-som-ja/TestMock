@@ -12,7 +12,7 @@ public class UnitTest
     public void Test2()
     {
         var user = Environment.GetEnvironmentVariable("user");
-        Assert.AreSame("user",user);
+        Assert.AreSame(expected:"user",actual:user);
     }
     [TestMethod]
     public void Test3()
