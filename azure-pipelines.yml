@@ -4,21 +4,20 @@
 # https://aka.ms/yaml
 
 trigger:
-- '*'
+  - "*"
 
 pool:
-  vmImage: 'ubuntu-20.04'
+  vmImage: "ubuntu-20.04"
 
 variables:
-    TEST1: "true"
-    TEST2: "true"
-    TEST3: "true"
+  TEST1: "true"
+  TEST2: "true"
+  TEST3: "true"
 
 steps:
-
-- script: dotnet test --logger "junit;verbosity=detailed"
-- task: PublishTestResults@2
-  condition: succeededOrFailed()
-  inputs:
-    testResultsFormat: JUnit
-    testResultsFiles: '**/*.xml'
+  - script: dotnet test --logger "junit;verbosity=detailed"
+  - task: PublishTestResults@2
+    condition: succeededOrFailed()
+    inputs:
+      testResultsFormat: JUnit
+      testResultsFiles: "**/*.xml"
