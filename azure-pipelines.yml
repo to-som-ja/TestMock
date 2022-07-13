@@ -6,10 +6,10 @@ pool:
 
 #Set number between 0-100 for test success rate
 variables:
-  TEST1: "50"
-  TEST2: "50"
-  TEST3: "50"
-  TEST4: "50"
+  TEST1: "100"
+  TEST2: "100"
+  TEST3: "100"
+  TEST4: "100"
 
 steps:
   - script: dotnet test -l:"trx;LogFileName=testresult.xml"
